@@ -1,16 +1,7 @@
-# mj
+# First flutter project
 
-A new Flutter project.
+Hello I am Mujtaba Hussain and this is my first flutter project, or rather a single flutter window/page, which contains some widget, I used something called [StatefulWidget](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html) which is used when you want your widget to change it's state during the time program is running.
 
-## Getting Started
+It contains basic widget and some buttons. The buttons are interactive so we can use this to change the value of `proficiency`.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](https://images2.imgbox.com/55/40/nfqIvrsT_o.png)
