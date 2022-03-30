@@ -1,3 +1,5 @@
+![alt text](https://i.ibb.co/qNzKWNj/Screenshot-2022-03-31-000551.jpg)
+
 ## Inside the main.dart file
 
 In this we have created a delete function that is linked with a `TextButton` and when it is pressed, it deletes the current `card`
