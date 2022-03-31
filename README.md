@@ -1,16 +1,61 @@
-# world_time
+## Routing in Flutter
 
-A new Flutter project.
+```dart
+void main() {
+  runApp(MaterialApp(
+    initialRoute: '/home',
+    routes: {
+      '/': (context) => Loading(),
+      '/home': (context) => Home(),
+      '/location': (context) => Location(),
+    },
+  ));
+}
+```
+This is how we define the routing in flutter, we have also created initial route, which will be out first page/tab when we launch the program, and the we have defined several routing links.
 
-## Getting Started
+Here `(context)` referse to the current page/tab we are at, so `(context)=>Home()` means that wherever we at, we have to go to `Home()` from there.
 
-This project is a starting point for a Flutter application.
+## Linking in flutter
+This is the dummy home page of our app. We have created a button that links this page to `Location()` page.
+[![home](https://i.ibb.co/3RfNqf5/word-time-home-page.png "home")](https://i.ibb.co/3RfNqf5/word-time-home-page.png "home")
 
-A few resources to get you started if this is your first Flutter project:
+So by clicking we can go to `Location()` page,
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[![location](https://i.ibb.co/HCmBhmx/location-page.png "location")](https://i.ibb.co/HCmBhmx/location-page.png "location")
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+CODE:
+(Inside the Home() page):
+```dart
+TextButton.icon(
+              onPressed: () {
+                Navigator.pushNamed(context, '/location');
+              },
+              icon: Icon(Icons.edit_location),
+              label: Text("edit location")
+              
+          )
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
